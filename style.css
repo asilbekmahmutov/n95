@@ -1,0 +1,244 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "JetBrains Mono", monospace;
+}
+body {
+  background: #f5f9ff;
+  color: #1a1a1a;
+}
+
+.container {
+  max-width: 1800px;
+  margin: 0 auto;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 10%;
+  padding: 0 200px;
+}
+
+header h2 {
+  font-family: Fira Code;
+  font-weight: 500;
+  font-size: 33px;
+  line-height: 40px;
+  letter-spacing: -6%;
+}
+
+header div {
+  width: 747px;
+}
+
+header h1 span {
+  color: #007aff;
+}
+
+nav a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: #333;
+  font-family: Inter;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0%;
+}
+
+a:hover {
+  color: #0076f5;
+}
+
+header button {
+  width: 116px;
+  height: 50px;
+  padding: 12px 36px;
+  background: #f5faff;
+  color: #0076f5;
+  border: 1px solid #0076f5;
+  border-radius: 10px;
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  gap: 30px;
+  padding: 130px 200px;
+}
+.hero h1 {
+  font-family: Fira Code;
+  font-weight: 500;
+  font-size: 79px;
+  line-height: 88px;
+  letter-spacing: -8%;
+  margin-bottom: 48px;
+}
+.hero h1 span {
+  color: #007aff;
+}
+
+.kr-btn {
+  width: 226px;
+  height: 50px;
+  background-color: #0076f5;
+  color: #f5faff;
+  border-radius: 10px;
+  border: none;
+  margin-right: 24px;
+}
+
+.contact-btn {
+  width: 226px;
+  height: 50px;
+  background-color: #f5faff;
+  color: #0076f5;
+  border-radius: 10px;
+  border: 1px solid #0076f5;
+}
+
+.stats {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding: 0 200px;
+}
+.stat-item {
+  width: 354px;
+  text-align: center;
+  background: white;
+  padding: 32px;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+}
+
+.stat-item h3 {
+  font-family: Fira Code;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
+  letter-spacing: -6%;
+}
+
+.stat-item p {
+  font-family: Inter;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 34px;
+  letter-spacing: 0%;
+  color: #514d48;
+}
+
+.section-title {
+  text-align: center;
+  margin-top: 60px;
+  font-size: 24px;
+  font-weight: bold;
+}
+.courses,
+.free-courses,
+.team {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 40px 10%;
+}
+.course-card,
+.team-card {
+  width: 322px;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+}
+
+.course-card:hover,
+.team-card:hover {
+  background: white;
+  background: white;
+}
+
+.course-card h3 {
+  font-family: Inter;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 34px;
+  letter-spacing: 0%;
+  color: #1b1a18;
+  margin-bottom: 8px;
+}
+
+.course-card p {
+  font-family: Inter;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0%;
+  color: #514d48;
+  margin-bottom: 8px;
+}
+
+.course-card button {
+  width: 195;
+  height: 50;
+  top: 3277px;
+  left: 223px;
+  border-radius: 10px;
+  border-width: 1px;
+  padding-top: 12px;
+  padding-right: 36px;
+  padding-bottom: 12px;
+  padding-left: 36px;
+  gap: 10px;
+  background: #0076f5;
+  color: white;
+  border: none;
+}
+
+.course-card img,
+.team-card img {
+  width: 100%;
+  border-radius: 10px;
+}
+.team-card h4 {
+  font-family: Inter;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 34px;
+  letter-spacing: 0%;
+}
+
+.team-card h5 {
+  font-family: Inter;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 28px;
+  letter-spacing: 0%;
+  color: #0076f5;
+  margin-bottom: 16px;
+}
+.team-card p {
+  font-family: Inter;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: center;
+  color: #514d48;
+  margin-bottom: 24px;
+}
+
+.footer {
+  background-color: #fff;
+  padding: 40px 10%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  font-size: 14px;
+}
+.footer div {
+  margin: 10px;
+}
